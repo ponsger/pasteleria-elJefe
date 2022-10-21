@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/root.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>Pastelería el jefe</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="logo-pastel"></div>
+        <h1>Pasteles "El jefe", desde 2022</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sabores</a></li>
+                <li><a href="#">Adorno</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Realiza tu pedido</a></li>
+                <li><a href="pastelero.html">Pastelero</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sabores">
+        <h2>Sabores de pasteles</h2>
+        <div class="sabores__container-sabores">
+            <div class="sabor">
+                <div class="sabor__imagen"></div>
+                <p class="sabor__descripcion">Fresa</p>
+                <p class="sabor__precio"></p>
+            </div>
+            <div class="sabor">
+                <div class="sabor__imagen"></div>
+                <p class="sabor__descripcion">Chocolate</p>
+                <p class="sabor__precio"></p>
+            </div>
+            <div class="sabor">
+                <div class="sabor__imagen"></div>
+                <p class="sabor__descripcion">Durazno</p>
+                <p class="sabor__precio"></p>
+            </div>
+            <div class="sabor">
+                <div class="sabor__imagen"></div>
+                <p class="sabor__descripcion">Tres Leches</p>
+                <p class="sabor__precio"></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Adornos para los pasteles</h2>
+        <ul>
+            <li>Rosa.............................$50.00</li>
+            <li>Clásico..........................$50.00</li>
+            <li>Boda..............................$100.00</li>
+            <li>Bautizo..........................$100.00</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Sobre nosotros</h2>
+        <article>
+            <h3>Direccion</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Direccion</th>
+                        <th>Teléfono</th>
+                        <th>Horario de atención</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Av. 5 de mayo N° 25, Col. Nueva Centro</td>
+                        <td>+52-55-28-21-54-65</td>
+                        <td>9:00 am - 5:00pm </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Av. Insurgentes Sur N° 352, Col. Nueva Coyoacan</td>
+                        <td>+52-55-64-78-63-11</td>
+                        <td>10:00 am - 6:00 pm</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Av. Texcoco Sur N° 268, Col. Nueva Texcoco</td>
+                        <td>+52-55-69-69-68-36</td>
+                        <td>10:00 am - 6:00 pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <section>
+        <hr>
+        <h2>Realice su pedido</h2>
+        <form action="prueba.js" method="post">
+            <h4>Datos del cliente</h4>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Apellido: </label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" name="telefono" id="telefono">
+            <label for="mensaje">Mensaje para el pastel: </label>
+            <input type="text" name="mensaje" id="mensaje">
+            <hr>
+            <h4>Selecciona el sabor o sabores para tu pastel: </h4>
+            <input type="checkbox" id="fresa" value="fresa">
+            <label for="fresa">Fresa</label>
+            <input type="checkbox" id="chocolate" value="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <input type="checkbox" id="durazno" value="durazno">
+            <label for="durazno">Durazno</label>
+            <input type="checkbox" id="tresLeches" value="tresLeches">
+            <label for="tresLeches">Tres Leches</label>
+            <hr>
+            <h4>Selecciona uno o mas adornos para el pastel: </h4>
+            <input type="checkbox" name="monio" id="monio">
+            <label for="monio">Moño</label>
+            <input type="checkbox" name="foto" id="foto">
+            <label for="foto">Foto personalizada</label>
+            <input type="checkbox" name="flores" id="flores">
+            <label for="flores">Flores</label>
+            <input type="checkbox" name="Boda" id="Boda">
+            <label for="Boda">Boda</label>
+            <input type="checkbox" name="bautizo" id="bautizo">
+            <label for="bautizo">Bautizo</label>
+        </form>
+    </section>
+</body>
+
+</html>
