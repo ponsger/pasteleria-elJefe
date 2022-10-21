@@ -9,4 +9,5 @@
     font-weight: 700;
     padding: 20px;
     letter-spacing: 2px;
+    text-transform: capitalize;
 }

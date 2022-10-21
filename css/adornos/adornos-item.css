@@ -1,0 +1,14 @@
+.adornos__item{
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px var(--color-principal);
+    background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.adornos__item:nth-child(2n){
+    flex-direction: row-reverse;
+}

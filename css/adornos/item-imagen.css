@@ -1,0 +1,23 @@
+.clasico{
+    background: url('../../img/clasico.jpg');
+}
+
+.boda{
+    background: url('../../img/boda.jpg');
+}
+.bautizo{
+    background: url('../../img/bautizo.jpg');
+}
+.rosa{
+    background: url('../../img/rosa.jpg');
+}
+
+
+
+.adornos__item-imagen{
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    border-radius: 5px;
+}

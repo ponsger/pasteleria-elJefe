@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/encabezado/titulo.css">
     <link rel="stylesheet" href="css/encabezado/navegacion-item.css">
     <link rel="stylesheet" href="css/encabezado/navegacion-lista.css">
-    <!-- Css de Sbores -->
+    <!-- Css de Sabores -->
     <link rel="stylesheet" href="css/sabores/sabores.css">
     <link rel="stylesheet" href="css/sabores/titulo.css">
     <link rel="stylesheet" href="css/sabores/container-sabores.css">
@@ -25,6 +25,16 @@
     <link rel="stylesheet" href="css/sabores/sabor-titulo.css">
     <link rel="stylesheet" href="css/sabores/sabor-descripcion.css">
     <link rel="stylesheet" href="css/sabores/sabor-precio.css">
+    <!-- Css de Adorno -->
+    <link rel="stylesheet" href="css/adornos/adornos.css">
+    <link rel="stylesheet" href="css/adornos/adornos-titulo.css">
+    <link rel="stylesheet" href="css/adornos/adornos-lista.css">
+    <link rel="stylesheet" href="css/adornos/adornos-item.css">
+    <link rel="stylesheet" href="css/adornos/item-imagen.css">
+    <link rel="stylesheet" href="css/adornos/item-container.css">
+    <link rel="stylesheet" href="css/adornos/item-titulo.css">
+    <link rel="stylesheet" href="css/adornos/item-descripcion.css">
+    <link rel="stylesheet" href="css/adornos/item-precio.css">
     <title>Pastelería el jefe</title>
 </head>
 
@@ -72,12 +82,42 @@
         </div>
     </section>
     <section class="adornos" id="adornos">
-        <h2>Adornos para los pasteles</h2>
-        <ul>
-            <li>Rosa.............................$50.00</li>
-            <li>Clásico..........................$50.00</li>
-            <li>Boda..............................$100.00</li>
-            <li>Bautizo..........................$100.00</li>
+        <h2 class="adornos__titulo">Adornos para los pasteles</h2>
+        <ul class="adornos__lista">
+            <li class="adornos__item">
+                <div class="adornos__item-imagen clasico"></div>
+                <div class="adornos__item-container">
+                    <p class="adornos__item-titulo">Clásico</p>
+                    <p class="adornos__item-descripcion">Que no se pierda la costumbre de celebrar</p>
+                    <p class="adornos__item-precio">$150.00</p> 
+                </div>
+                
+            </li>
+            <li class="adornos__item">
+                <div class="adornos__item-imagen boda"></div>
+                <div class="adornos__item-container">
+                    <p class="adornos__item-titulo">Boda</p>
+                    <p class="adornos__item-descripcion">Excelente para celebraciones de gala</p>
+                    <p class="adornos__item-precio">$250.00</p> 
+                </div>
+            </li>
+            <li class="adornos__item">
+                <div class="adornos__item-imagen bautizo"></div>
+                <div class="adornos__item-container">
+                    <p class="adornos__item-titulo">Bautizo</p>
+                    <p class="adornos__item-descripcion">Excelente para celebraciones casuales</p>
+                    <p class="adornos__item-precio">$150.00</p> 
+                </div>
+            </li>
+            <li class="adornos__item">
+                <div class="adornos__item-imagen rosa"></div>
+                <div class="adornos__item-container">
+                    <p class="adornos__item-titulo">Rosa</p>
+                    <p class="adornos__item-descripcion">Excelente para celebrarle a una dama que siempre nos acompaña en nuestra vida.</p>
+                    <p class="adornos__item-precio">$120.00</p> 
+                </div>
+            </li>
+
         </ul>
     </section>
     <section class="sobre-nosotros" id="sobre-nosotros">

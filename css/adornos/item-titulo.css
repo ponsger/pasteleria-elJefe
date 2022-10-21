@@ -1,0 +1,9 @@
+.adornos__item-titulo{
+    font-family: var(--texto-importante);
+    color: var(--color-principal);
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+}

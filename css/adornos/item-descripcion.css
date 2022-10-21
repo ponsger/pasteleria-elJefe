@@ -1,0 +1,5 @@
+.adornos__item-descripcion{
+    font-family: var(--texto-normal);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
