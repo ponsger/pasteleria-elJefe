@@ -17,8 +17,10 @@
 .sobre-nosotros__table-body tr:hover{
     background-color: var(--color-principal);
     cursor: pointer;
+    color: white;
 }
 
 .sobre-nosotros__table-body tr:nth-child(even):hover{
     background-color: var(--color-secundario);
+    color: var(--color-principal);
 }
