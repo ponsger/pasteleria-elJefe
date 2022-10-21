@@ -1,0 +1,25 @@
+.fresa{
+    background: url('../../img/fresa.jpg');
+    width: 100%;
+    height: 100px;
+}
+
+.durazno{
+    background: url('../../img/durazno.jpg');
+}
+
+.chocolate{
+    background: url('../../img/chocolate.jpg');
+}
+
+.tres-leches{
+    background: url('../../img/tres-leches.jpg');
+}
+
+.sabor__imagen{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

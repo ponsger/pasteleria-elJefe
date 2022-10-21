@@ -5,54 +5,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/bigilla" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/root.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- Css de Encabezados -->
+    <link rel="stylesheet" href="css/encabezado/encabezado.css">
+    <link rel="stylesheet" href="css/encabezado/logo-pastel.css">
+    <link rel="stylesheet" href="css/encabezado/titulo.css">
+    <link rel="stylesheet" href="css/encabezado/navegacion-item.css">
+    <link rel="stylesheet" href="css/encabezado/navegacion-lista.css">
+    <!-- Css de Sbores -->
+    <link rel="stylesheet" href="css/sabores/sabores.css">
+    <link rel="stylesheet" href="css/sabores/titulo.css">
+    <link rel="stylesheet" href="css/sabores/container-sabores.css">
+    <link rel="stylesheet" href="css/sabores/sabor.css">
+    <link rel="stylesheet" href="css/sabores/sabor-imagen.css">
+    <link rel="stylesheet" href="css/sabores/sabor-titulo.css">
+    <link rel="stylesheet" href="css/sabores/sabor-descripcion.css">
+    <link rel="stylesheet" href="css/sabores/sabor-precio.css">
     <title>Pastelería el jefe</title>
 </head>
 
 <body>
     <header class="encabezado">
-        <div class="logo-pastel"></div>
-        <h1>Pasteles "El jefe", desde 2022</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sabores</a></li>
-                <li><a href="#">Adorno</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Realiza tu pedido</a></li>
-                <li><a href="pastelero.html">Pastelero</a></li>
-            </ul>
-        </nav>
+            <nav class="encabezado__navegacion">
+                <ul class="encabezado__navegacion--lista">
+                    <li><a class="encabezado__navegacion--item" href="#">Inicio</a></li>
+                    <li><a class="encabezado__navegacion--item" href="#sabores">Sabores</a></li>
+                    <li><a class="encabezado__navegacion--item" href="#adornos">Adornos</a></li>
+                    <li><a class="encabezado__navegacion--item" href="#sobre-nosotros">Sobre nosotros</a></li>
+                    <li><a class="encabezado__navegacion--item" href="#pedido">Realiza tu pedido</a></li>
+                    <li><a class="encabezado__navegacion--item" href="pastelero.html">Pastelero</a></li>
+                </ul>
+            </nav>
+        <h1 class="encabezado__titulo">Pasteles "El jefe"</h1>
     </header>
-    <section class="sabores">
-        <h2>Sabores de pasteles</h2>
+    <section class="sabores" id="sabores">
+        <h2 class="sabores__titulo">Sabores de pasteles</h2>
         <div class="sabores__container-sabores">
             <div class="sabor">
-                <div class="sabor__imagen"></div>
-                <p class="sabor__descripcion">Fresa</p>
-                <p class="sabor__precio"></p>
+                <div class="sabor__imagen fresa"></div>
+                <p class="sabor__titulo">Fresa</p>
+                <p class="sabor__descripcion">Fresa seleccionada detalladamente por nuestros especialistas en la cosecha y tambien por los chef's para elegir las de más alta cálidad.</p>
+                <p class="sabor__precio">$100.00</p>
             </div>
             <div class="sabor">
-                <div class="sabor__imagen"></div>
-                <p class="sabor__descripcion">Chocolate</p>
-                <p class="sabor__precio"></p>
+                <div class="sabor__imagen chocolate"></div>
+                <p class="sabor__titulo">Chocolate</p>
+                <p class="sabor__descripcion">Chocolate con 80% de cacao para tener el mejor sabor a chocolate posible.</p>
+                <p class="sabor__precio">$70.00</p>
             </div>
             <div class="sabor">
-                <div class="sabor__imagen"></div>
-                <p class="sabor__descripcion">Durazno</p>
-                <p class="sabor__precio"></p>
+                <div class="sabor__imagen durazno"></div>
+                <p class="sabor__titulo">Durazno</p>
+                <p class="sabor__descripcion">Durazno de temporada y jugozo para un pastel fresco.</p>
+                <p class="sabor__precio">$70.00</p>
             </div>
             <div class="sabor">
-                <div class="sabor__imagen"></div>
-                <p class="sabor__descripcion">Tres Leches</p>
-                <p class="sabor__precio"></p>
+                <div class="sabor__imagen tres-leches"></div>
+                <p class="sabor__titulo">Tres Leches</p>
+                <p class="sabor__descripcion">Tan jugoso que escurre la leche que contiene el pan con una textura deliciosa.</p>
+                <p class="sabor__precio">$100.00</p>
             </div>
         </div>
     </section>
-    <section>
+    <section class="adornos" id="adornos">
         <h2>Adornos para los pasteles</h2>
         <ul>
             <li>Rosa.............................$50.00</li>
@@ -61,7 +80,7 @@
             <li>Bautizo..........................$100.00</li>
         </ul>
     </section>
-    <section>
+    <section class="sobre-nosotros" id="sobre-nosotros">
         <h2>Sobre nosotros</h2>
         <article>
             <h3>Direccion</h3>
@@ -97,7 +116,7 @@
             </table>
         </article>
     </section>
-    <section>
+    <section class="pedido" id="pedido">
         <hr>
         <h2>Realice su pedido</h2>
         <form action="prueba.js" method="post">
@@ -134,6 +153,9 @@
             <label for="bautizo">Bautizo</label>
         </form>
     </section>
+    <footer class="pie-de-pagina">
+        Página creada por Germán Pons
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,6 @@
+.sabor__precio{
+    font-family: var(--texto-importante);
+    color: var(--color-principal);
+    font-size: 1.2rem;
+    text-align: right;
+}

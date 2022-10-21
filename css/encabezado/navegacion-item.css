@@ -1,0 +1,19 @@
+.encabezado__navegacion--item{
+   font-family: var(--texto-importante); 
+   text-decoration: none;
+   color: var(--color-principal);
+   margin: 5px;
+   padding: 5px;
+   font-size: .8rem;
+   text-align: center;
+   transition: 1s all;
+   border-radius: 10px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.encabezado__navegacion--item:hover{
+    background-color: var(--color-secundario);
+    transform: scale(1.2);
+    text-decoration: underline;
+}

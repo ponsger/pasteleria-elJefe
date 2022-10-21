@@ -1,3 +1,8 @@
 :root{
-    --tipo-texto: 'Pacifico', "Montserrat", serif
+    --titulo: 'Pacifico', 'Bigilla' ,'Montserrat', serif;
+    --texto-importante: 'Bigilla', sans-serif;
+    --texto-normal:'Montserrat', serif;
+    --color-principal:rgb(204, 49, 49);
+    --color-secundario:white;
+
 }

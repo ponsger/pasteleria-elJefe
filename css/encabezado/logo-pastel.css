@@ -1,0 +1,7 @@
+.encabezado__logo-pastel{
+    background-image: url('../../img/Logo.png');
+    width: 50%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

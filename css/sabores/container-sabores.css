@@ -1,0 +1,4 @@
+.sabores__container-sabores{
+    display: flex;
+    justify-content: space-between;
+}

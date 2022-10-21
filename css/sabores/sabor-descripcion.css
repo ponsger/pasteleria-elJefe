@@ -1,0 +1,8 @@
+.sabor__descripcion{
+    font-family: var(--texto-normal);
+    text-align: center;
+    font-weight: 300;
+    font-size: .8rem;
+    margin-top: 10px;
+    padding: 5px;
+}

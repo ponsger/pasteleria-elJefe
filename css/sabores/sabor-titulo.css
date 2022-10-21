@@ -1,0 +1,9 @@
+.sabor__titulo{
+    font-family: var(--texto-importante);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-principal);
+    font-weight: 1200;
+    font-size: 1.2rem;
+}

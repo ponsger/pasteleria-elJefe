@@ -1,0 +1,4 @@
+.encabezado__navegacion--lista{
+    display: flex;
+    justify-content: flex-end;
+}

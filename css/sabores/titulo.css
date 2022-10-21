@@ -1,0 +1,8 @@
+.sabores__titulo{
+    font-family: var(--titulo);
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-principal);
+    text-shadow: -2px -2px 1px var(--color-secundario);
+    padding: 5px;
+}
