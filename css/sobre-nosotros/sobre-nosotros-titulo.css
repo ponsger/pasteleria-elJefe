@@ -1,0 +1,9 @@
+.sobre-nosotros__titulo{
+    font-family: var(--titulo);
+    color: var(--color-principal);
+    text-shadow: -2px -2px 1px var(--color-secundario);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}

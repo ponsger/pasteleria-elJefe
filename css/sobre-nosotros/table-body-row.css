@@ -1,0 +1,9 @@
+.sobre-nosotros__table-body__row{
+    padding: 5px;
+    transition: 1s all;
+    font-family: var(--texto-normal);
+}
+
+td{
+    padding: 5px;
+}

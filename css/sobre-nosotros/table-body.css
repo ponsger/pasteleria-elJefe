@@ -1,0 +1,24 @@
+.sobre-nosotros__table-body{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+
+.sobre-nosotros__table-body tr:nth-child(odd){
+    background-color: rgb(233, 173, 173);
+}
+
+.sobre-nosotros__table-body tr:nth-child(even){
+    background-color: #ccc
+}
+
+.sobre-nosotros__table-body tr:hover{
+    background-color: var(--color-principal);
+    cursor: pointer;
+}
+
+.sobre-nosotros__table-body tr:nth-child(even):hover{
+    background-color: var(--color-secundario);
+}

@@ -1,0 +1,9 @@
+.sobre-nosotros__table-header{
+    font-family: var(--texto-importante);
+    color: var(--color-principal);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    background-color: var(--color-secundario);
+}
+
+
