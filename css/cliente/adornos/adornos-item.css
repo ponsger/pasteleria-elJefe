@@ -7,10 +7,16 @@
     display: flex;
     flex-wrap: wrap;
     margin: 10px auto;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
 }
 
 .adornos__item:nth-child(2n){
     flex-direction: row-reverse;
+}
+
+.adornos__item:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (max-width:480px) {

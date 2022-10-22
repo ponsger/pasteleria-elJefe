@@ -1,17 +1,17 @@
 .fresa{
-    background: url('../../img/fresa.jpg');
+    background: url('../../../img/fresa.jpg');
 }
 
 .durazno{
-    background: url('../../img/durazno.jpg');
+    background: url('../../../img/durazno.jpg');
 }
 
 .chocolate{
-    background: url('../../img/chocolate.jpg');
+    background: url('../../../img/chocolate.jpg');
 }
 
 .tres-leches{
-    background: url('../../img/tres-leches.jpg');
+    background: url('../../../img/tres-leches.jpg');
 }
 
 .sabor__imagen{

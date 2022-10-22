@@ -1,15 +1,15 @@
 .clasico{
-    background: url('../../img/clasico.jpg');
+    background: url('../../../img/clasico.jpg');
 }
 
 .boda{
-    background: url('../../img/boda.jpg');
+    background: url('../../../img/boda.jpg');
 }
 .bautizo{
-    background: url('../../img/bautizo.jpg');
+    background: url('../../../img/bautizo.jpg');
 }
 .rosa{
-    background: url('../../img/rosa.jpg');
+    background: url('../../../img/rosa.jpg');
 }
 
 
