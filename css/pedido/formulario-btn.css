@@ -20,3 +20,10 @@
     background-color: var(--color-principal);
     color: var(--color-secundario);
 }
+
+@media screen and (max-width:768px) {
+    .formulario__btn{
+        width: 90%;
+        margin: auto;
+    }
+}

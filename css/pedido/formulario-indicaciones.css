@@ -1,6 +1,6 @@
 .formulario__indicaciones{
-    font-family: var(--texto-importante);
-    color: var(--color-principal);
+    font-family: var(--texto-normal);
+    color: var(--color-secundario);
     text-transform: capitalize;
     letter-spacing: 2px;
     font-weight: bolder;
@@ -8,4 +8,5 @@
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: -2px -2px 1px #000;
 }

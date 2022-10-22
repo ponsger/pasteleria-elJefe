@@ -8,6 +8,10 @@
     transition: .5s all ease-in-out;
 }
 
+.formulario__mensaje>.formulario__caja-texto{
+    height: 20px;
+}
+
 .formulario__caja-texto:focus{
     outline:var(--color-principal) solid 2px;
     outline-style:outset;
@@ -19,4 +23,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+@media screen and (max-width:768px) {
+    .formulario__caja-texto{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:520px) {
+    .formulario__caja-texto{
+        width: 90%;
+    }
 }

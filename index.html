@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="css/sobre-nosotros/table-header.css">
     <link rel="stylesheet" href="css/sobre-nosotros/table-body.css">
     <link rel="stylesheet" href="css/sobre-nosotros/table-body-row.css">
+    <link rel="stylesheet" href="css/sobre-nosotros/table-body-row.css">
 
     <!-- Css de Pedidos -->
     <link rel="stylesheet" href="css/pedido/pedido.css">
@@ -103,7 +104,7 @@
             <div class="sabor">
                 <div class="sabor__imagen tres-leches"></div>
                 <p class="sabor__titulo">Tres Leches</p>
-                <p class="sabor__descripcion">Tan jugoso que escurre la leche que contiene el pan con una textura
+                <p class="sabor__descripcion">Extremadamente jugozo.
                     deliciosa.</p>
                 <p class="sabor__precio">$100.00</p>
             </div>
@@ -150,12 +151,14 @@
         </ul>
     </section>
     <section class="sobre-nosotros pedido" id="sobre-nosotros">
-        <h2 class="sobre-nosotros__titulo">Sobre nosotros</h2>
+        <h2 class="sobre-nosotros__titulo">Sobre nosotros  <br>   
+            <span class="titulo__sucursales">Sucursales</span>
+        </h2>
+
         <article>
             <table class="sobre-nosotros__table">
                 <thead class="sobre-nosotros__table-header">
                     <tr>
-                        <th>Número</th>
                         <th>Direccion</th>
                         <th>Teléfono</th>
                         <th>Horario de atención</th>
@@ -163,19 +166,16 @@
                 </thead>
                 <tbody class="sobre-nosotros__table-body">
                     <tr class="sobre-nosotros__table-body__row">
-                        <td>1</td>
                         <td>Av. 5 de mayo N° 25, Col. Nueva Centro</td>
                         <td>correo@correo.com</td>
                         <td>9:00 am - 5:00 pm </td>
                     </tr>
                     <tr class="sobre-nosotros__table-body__row">
-                        <td>2</td>
                         <td>Av. Insurgentes Sur N° 352, Col. Nueva Coyoacan</td>
                         <td>correo@correo.com</td>
                         <td>10:00 am - 6:00 pm</td>
                     </tr>
                     <tr class="sobre-nosotros__table-body__row">
-                        <td>3</td>
                         <td>Av. Texcoco Sur N° 268, Col. Nueva Texcoco</td>
                         <td>correo@correo.com</td>
                         <td>10:00 am - 6:00 pm</td>
@@ -212,21 +212,29 @@
             <h4 class="formulario__indicaciones">Selecciona el sabor o sabores para tu pastel: </h4>
             <input class="formulario__checkbox" type="checkbox" id="fresa" value="fresa">
             <label class="forumulario__texto" for="fresa">Fresa</label>
+            <br>
             <input class="formulario__checkbox" type="checkbox" id="chocolate" value="chocolate">
             <label class="forumulario__texto" for="chocolate">Chocolate</label>
+            <br>
             <input class="formulario__checkbox" type="checkbox" id="durazno" value="durazno">
             <label class="forumulario__texto" for="durazno">Durazno</label>
+            <br>
             <input class="formulario__checkbox" type="checkbox" id="tresLeches" value="tresLeches">
             <label class="forumulario__texto" for="tresLeches">Tres Leches</label>
+            <br>
             <h4 class="formulario__indicaciones">Selecciona uno o mas adornos para el pastel: </h4>
             <input class="formulario__checkbox" type="checkbox" name="clasico" id="clasico">
             <label class="forumulario__texto" for="clasico">Clásico</label>
+            <br>
             <input class="formulario__checkbox" type="checkbox" name="boda" id="boda">
             <label class="forumulario__texto" for="boda">Boda</label>
+            <br>
             <input class="formulario__checkbox" type="checkbox" name="bautizo" id="bautizo">
             <label class="forumulario__texto" for="bautizo">Bautizo</label>
+            <br>
             <input class="formulario__checkbox" type="checkbox" name="rosa" id="rosa">
             <label class="forumulario__texto" for="rosa">Rosa</label>
+            <br>
             <br>
             <input class="formulario__btn" type="submit" />
         </form>
