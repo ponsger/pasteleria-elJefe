@@ -4,6 +4,7 @@
     letter-spacing: 2px;
     font-size: 1.2rem;
     background-color: var(--color-secundario);
+    text-transform: uppercase;
 }
 
 

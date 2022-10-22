@@ -1,0 +1,10 @@
+.pedido__titulo{
+    font-family: var(--titulo);
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-shadow: -2px -2px 1px var(--color-secundario);
+    color: var(--color-principal);
+    padding-top: 5vh;
+}

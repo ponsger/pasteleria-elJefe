@@ -1,0 +1,16 @@
+.formulario__caja-texto{
+    width: 20%;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    margin-top: 2%;
+    padding: 3px;
+    letter-spacing: 2px;
+    transition: .5s all ease-in-out;
+}
+
+.formulario__caja-texto:focus{
+    outline:var(--color-principal) solid 2px;
+    outline-style:outset;
+    transform: scale(1.02);
+}

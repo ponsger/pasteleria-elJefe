@@ -1,0 +1,10 @@
+.formulario__checkbox{
+
+    font:inherit;
+    color: var(--color-principal);
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15rem solid currentColor;
+    border-radius: .15rem;
+    transform: translateY(-0.075rem);
+}

@@ -1,0 +1,10 @@
+.forumulario__texto{
+    font-family: var(--texto-normal);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    padding: 5px;
+    color:var(--color-secundario);
+    text-shadow: -2px -2px 1px #000;
+    text-align: center;
+}

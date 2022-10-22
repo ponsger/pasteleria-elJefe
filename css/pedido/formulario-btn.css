@@ -1,0 +1,22 @@
+.formulario__btn{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: var(--color-secundario);
+    color: var(--color-principal);
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+    transition: .5s all ease-in-out;
+}
+
+.formulario__btn:hover{
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
