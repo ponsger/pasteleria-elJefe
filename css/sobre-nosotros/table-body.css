@@ -7,11 +7,11 @@
 }
 
 .sobre-nosotros__table-body tr:nth-child(odd){
-    background-color: rgb(233, 173, 173);
+    background-color: rgba(233, 173, 173,.5);
 }
 
 .sobre-nosotros__table-body tr:nth-child(even){
-    background-color: #ccc
+    background-color: rgba(204, 204, 204, .5)
 }
 
 .sobre-nosotros__table-body tr:hover{
