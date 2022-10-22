@@ -54,7 +54,12 @@
     <link rel="stylesheet" href="css/pedido/formulario-caja-texto.css">
     <link rel="stylesheet" href="css/pedido/formulario-checkbox.css">
     <link rel="stylesheet" href="css/pedido/formulario-btn.css">
-    
+
+    <!-- Css de footer -->
+    <link rel="stylesheet" href="css/pie-de-pagina/pie-de-pagina.css">
+    <link rel="stylesheet" href="css/pie-de-pagina/texto.css">
+
+
     <title>Pastelería el jefe</title>
 </head>
 
@@ -183,17 +188,27 @@
         <h2 class="pedido__titulo">Realice su pedido</h2>
         <form action="index.html" method="post" class="pedido__formulario">
             <h4 class="formulario__indicaciones">Datos del cliente</h4>
-            <label class="forumulario__texto" for="nombre">Nombre: </label>
-            <input class="formulario__caja-texto" type="text" name="nombre" id="nombre">
+            <div class="formulario__nombre">
+                <label class="forumulario__texto" for="nombre">Nombre: </label>
+                <input class="formulario__caja-texto nombre" type="text" name="nombre" id="nombre">
+            </div>
+
             <br>
-            <label class="forumulario__texto" for="apellido">Apellido: </label>
-            <input class="formulario__caja-texto" type="text" name="apellido" id="apellido">
+            <div class="formulario__apellido">
+                <label class="forumulario__texto" for="apellido">Apellido: </label>
+                <input class="formulario__caja-texto apellido" type="text" name="apellido" id="apellido">
+            </div>
             <br>
-            <label class="forumulario__texto" for="telefono">Teléfono: </label>
-            <input class="formulario__caja-texto" type="tel" name="telefono" id="telefono">
+            <div class="formulario__telefono">
+                <label class="forumulario__texto" for="telefono">Teléfono: </label>
+                <input class="formulario__caja-texto " type="tel" name="telefono" id="telefono">
+            </div>
             <br>
-            <label class="forumulario__texto" for="mensaje">Mensaje para el pastel: </label>
-            <input class="formulario__caja-texto" type="text" name="mensaje" id="mensaje">
+            <div class="formulario__mensaje">
+                <label class="forumulario__texto" for="mensaje">Mensaje para el pastel: </label>
+                <input class="formulario__caja-texto" type="text" name="mensaje" id="mensaje">
+            </div>
+            
             <h4 class="formulario__indicaciones">Selecciona el sabor o sabores para tu pastel: </h4>
             <input class="formulario__checkbox" type="checkbox" id="fresa" value="fresa">
             <label class="forumulario__texto" for="fresa">Fresa</label>
@@ -213,11 +228,11 @@
             <input class="formulario__checkbox" type="checkbox" name="rosa" id="rosa">
             <label class="forumulario__texto" for="rosa">Rosa</label>
             <br>
-            <input class="formulario__btn" type="submit"/>
+            <input class="formulario__btn" type="submit" />
         </form>
     </section>
     <footer class="pie-de-pagina">
-        Página creada por Germán Pons
+        <p class="pie-de-pagina__texto">Página creada por Germán Pons</p>
     </footer>
 </body>
 

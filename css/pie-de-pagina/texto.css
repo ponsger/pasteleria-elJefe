@@ -1,0 +1,9 @@
+.pie-de-pagina__texto{
+    color: var(--color-secundario);
+    font-weight: 700;
+    font-family: var(--titulo);
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 3vh;
+    text-shadow: -2px -2px 1px var(--color-principal);
+}
