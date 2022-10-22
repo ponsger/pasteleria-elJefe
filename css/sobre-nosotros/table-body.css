@@ -11,7 +11,7 @@
 }
 
 .sobre-nosotros__table-body tr:nth-child(even){
-    background-color: rgba(204, 204, 204, .5)
+    background-color: rgba(204, 204, 204, .9)
 }
 
 .sobre-nosotros__table-body tr:hover{
