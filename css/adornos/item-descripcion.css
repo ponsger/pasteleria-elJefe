@@ -3,3 +3,11 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
+@media screen and (max-width:480px) {
+    .adornos__item-descripcion{
+        font-size: .7rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

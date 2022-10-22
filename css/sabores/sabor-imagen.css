@@ -1,7 +1,5 @@
 .fresa{
     background: url('../../img/fresa.jpg');
-    width: 100%;
-    height: 100px;
 }
 
 .durazno{
@@ -22,4 +20,5 @@
     margin-bottom: 10px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }

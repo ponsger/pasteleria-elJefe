@@ -5,3 +5,16 @@
     justify-content: center;
     padding: 10px;
 }
+
+@media screen and (max-width:768px) {
+    .adornos__item-container{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .adornos__item-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

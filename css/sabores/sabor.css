@@ -11,3 +11,15 @@
 }
 
 
+@media screen and (max-width:768px) {
+    .sabor{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .sabor{
+        width: 80%;
+    }
+}
+

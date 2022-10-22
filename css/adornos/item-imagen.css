@@ -20,4 +20,14 @@
     background-size: cover;
     opacity: .8;
     border-radius: 5px;
+    background-position: center;
+}
+
+@media screen and (max-width:768px) {
+    .adornos__item-imagen{
+        background-size: contain;
+        padding-left: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

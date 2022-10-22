@@ -17,3 +17,10 @@
     transform: scale(1.2);
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px) {
+    .encabezado__navegacion--item{
+        visibility: hidden;
+    }
+}

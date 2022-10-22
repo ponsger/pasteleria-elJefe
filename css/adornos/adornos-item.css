@@ -12,3 +12,11 @@
 .adornos__item:nth-child(2n){
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width:480px) {
+    .adornos__item{
+        width: 90%;
+        height: 200px;
+        flex-wrap: nowrap;
+    }
+}
