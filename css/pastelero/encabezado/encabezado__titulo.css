@@ -1,0 +1,9 @@
+.encabezado__titulo{
+    color: var(--color-secundario);
+    float: left;
+    margin-top: calc(30vh - 60%);
+    margin-left: 10px;
+    font-family: var(--texto-importante);
+    text-decoration: double underline;
+    font-size: 1.1rem;
+}

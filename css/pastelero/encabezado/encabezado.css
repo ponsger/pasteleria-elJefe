@@ -1,0 +1,7 @@
+.encabezado{
+    background-image: url('../../../img/pastelero/chef-pastel.jpg');
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

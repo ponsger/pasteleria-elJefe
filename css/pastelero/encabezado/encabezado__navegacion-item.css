@@ -1,0 +1,10 @@
+.encabezado__navegacion-item{
+    text-decoration: none;
+    font-family: var(--texto-importante);
+    font-weight: 700;
+    font-size: .8rem;
+    margin: 5px;
+    padding: 10px 3px;
+    text-transform: uppercase;
+    color:whitesmoke
+}
